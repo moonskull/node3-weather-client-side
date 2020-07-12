@@ -18,7 +18,7 @@ form.addEventListener('submit', (event) => {
 	// 		}
 	// 	});
 	// });
-	fetch(`http://localhost:3000/weather?address=${city}`)
+	fetch(`/weather?address=${city}`)
 		.then((response) => {
 			return response.json();
 		})
