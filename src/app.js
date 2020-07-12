@@ -43,7 +43,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
 	res.render('help', {
 		title: 'Help us to make the world a better place',
-		name: 'Kamikazi'
+		name: 'Yamikazi'
 	});
 });
 
